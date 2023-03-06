@@ -5,7 +5,7 @@ by: Jarrid Jones
 
 <p>
   <a href="https://github.com/mil2tech" target="_blank">
-    <img alt="Matthew" src="https://img.shields.io/github/followers/mil2tech?label=Follow_Matt&style=social" />
+    <img alt="Matthew" src="https://img.shields.io/github/followers/mil2tech?label=Follow_Jarrid&style=social" />
   </a>
 </p>
 
@@ -25,6 +25,7 @@ ___
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vR19fsVfxHvzjrp0kSMlzHlmyU0oeTTAcnTUT9dNe4wAEXv_2WJNViUa9qzjkvcpvkFeUCyatccINde/pub?w=1389&amp;h=410">
 
 ## <a name="project_description"></a>Project Description:
+This project is about reviewing the sexually transmitted diseases that occurred in the United States over a given period of time. 
 [[Back to top](#top)]
 
 ***
@@ -44,6 +45,9 @@ ___
 
 ### Need to haves (Deliverables):
 
+- Wrangle.py
+- Modeling.py
+- Final_Report
 
 
 ### Nice to haves (With more time):
@@ -60,7 +64,20 @@ ___
 
 ***
 
-## <a name="dictionary"></a>Data Dictionary  
+## <a name="dictionary"></a>Data Dictionary
+
+| Disease       | The name of the STD. (String)                                   |
+|---------------|-----------------------------------------------------------------|
+| Disease Code  | The code for the STD. (String)                                  |
+| State         | The state where the STD was found. (String)                     |
+| Year          | The year the STD was found. (Integer)                           |
+| Gender        | The gender of the person with the STD. (String)                 |
+| Age           | The age of the person with the STD. (Integer)                   |
+| Age Code      | The code for the age group of the person with the STD. (String) |
+| STD Cases     | The number of STD cases. (Integer)                              |
+| Population    | The population of the state where the STD was found. (Integer)  |
+| Rate per 100K | The rate of STD cases per 100,000 people. (Float)               |
+
 [[Back to top](#top)]
 
 ### Data Used
@@ -77,6 +94,11 @@ ___
 ***
 
 ## <a name="wrangle"></a>Data Acquisition and Preparation
+
+Data is downloaded from provided url:
+
+https://www.kaggle.com/datasets/thedevastator/std-infection-rates-in-america-1996-2008
+
 [[Back to top](#top)]
 
 ![]()
